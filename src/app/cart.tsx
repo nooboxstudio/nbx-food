@@ -17,7 +17,7 @@ export default function Cart(){
     const[address, setAddress] = useState("")
     const navigation = useNavigation()
 
-    const PHONE_NUMBER = "5548996525078"
+    const PHONE_NUMBER = "5500000000000" //formato ddi + ddd + numero
 
     const cartStore = useCartStore()
     const total = formatCurrency(cartStore.products.reduce((total, product) => total +
